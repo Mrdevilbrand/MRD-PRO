@@ -56,7 +56,7 @@ Y='\033[1;93m'
  
 #### LOGO ####
 logo = """ 
-\033[1;94m ♡>>>WELCOME TO DEVIL'S WORLD<<<<♡ 
+\033[1;94m ♡>>WELCOME TO DEVIL'S WORLD<<♡ 
 \033[1;91m   ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
 \033[1;93m   ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█
 \033[1;93m   ░▒█░░▒█░▒█░▒█░░░▒█▄▄█
@@ -251,7 +251,7 @@ def tokenz():
 		menu()
 	except KeyError:
 		print "\033[1;91m[!] Wrong"
-		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
+		e = raw_input("\033[1;91m[?] \033want back login menu ?\033[1;97m[y/n]: ")
 		if e =="":
 			keluar()
 		elif e =="y":
