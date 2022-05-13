@@ -56,15 +56,16 @@ Y='\033[1;93m'
  
 #### LOGO ####
 logo = """ 
+\033[0;95m ===========================================================
 \033[1;94m ♡>>WELCOME TO DEVIL'S WORLD<<♡ 
-\033[1;91m   ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
-\033[1;93m   ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█
-\033[1;93m   ░▒█░░▒█░▒█░▒█░░░▒█▄▄█
+\033[1;91m    ░▒█▀▄▀█░▒█▀▀▄░░░▒█▀▀▄
+\033[1;93m    ░▒█▒█▒█░▒█▄▄▀░░░▒█░▒█
+\033[1;93m    ░▒█░░▒█░▒█░▒█░░░▒█▄▄█
 \033[1;91m  《MR.DEVIL LORD OF DARK WORLD》 
 \033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m  \033[0;91mAUTHOR  :\033[0;92mMR.DEVIL                \033[0;91m      
-\033[0;91m  \033[0;91mTOOL nm :\033[0;92mSCORPION version 0.2    \033[0;91m     
-\033[0;91m  \033[0;91mMR.DEVIL:\033[0;92mPROGRAMMER & DARK HACKER \033[0;91m.    
+\033[0;91m  \033[0;91mAUTHOR  :\033[0;92mMR.DEVIL               \033[0;91m      
+\033[0;91m  \033[0;91mTOOL nm :\033[0;92mSCORPIONversion 0.2    \033[0;91m     
+\033[0;91m  \033[0;91mMR.DEVIL:\033[0;92mPROGRAMMER & DARK HACKER\033[0;91m.    
 \033[0;95m╰════════════════════════════════════════════╯
 """
 CorrectUsername = "DARK"
@@ -76,7 +77,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m🗝 \x1b[1;96mTool Password \x1b[1;97m»» \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:heart_hacker
+            print "Logged in successfully as " + username #:DARK_HACKER
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -251,7 +252,7 @@ def tokenz():
 		menu()
 	except KeyError:
 		print "\033[1;91m[!] Wrong"
-		e = raw_input("\033[1;91m[?] \033want back login menu ?\033[1;97m[y/n]: ")
+		e = raw_input("\033[1;91m[*] \033ppres y for login menu & n for Exit?\033[1;97m[y/n]: ")
 		if e =="":
 			keluar()
 		elif e =="y":
